@@ -22,3 +22,4 @@ Create your first spring boot app
 4. Build Code. Locate where the compile code is stored.
 5. Understand difference between compiled code and source code.
 6. Understand the main method and its relavence
+7. Understand the git commands used
