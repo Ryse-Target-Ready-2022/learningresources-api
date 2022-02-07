@@ -8,6 +8,7 @@ public class ProductsapiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ProductsapiApplication.class, args);
+		System.out.println("Hello World!!");
 	}
 
 }
