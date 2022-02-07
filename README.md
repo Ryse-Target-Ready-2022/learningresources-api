@@ -5,9 +5,11 @@ This is a sample repository for practising Java, Spring Boot and Rest Fundamenta
 # Software Prerequisites
 1. Adopt Open JDK from managed software
 2. Intellij Community or Ultimate Edition
+3. Git Setup
 
 # How to use 
 Follow along from branch 1 to n and practise along for better understanding.
 
 # References
- TBD
+ https://pages.git.target.com/miniapp/docs/
+ https://learninghub.prod.target.com/
