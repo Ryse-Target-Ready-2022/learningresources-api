@@ -11,5 +11,5 @@ This is a sample repository for practising Java, Spring Boot and Rest Fundamenta
 Follow along from branch 1 to n and practise along for better understanding.
 
 # References
- https://pages.git.target.com/miniapp/docs/
- https://learninghub.prod.target.com/
+ 1. https://pages.git.target.com/miniapp/docs/
+ 2. https://learninghub.prod.target.com/
