@@ -1,26 +1,14 @@
 # Activity Goal
 
-Create your first Spring Boot app
+Learn about Classes, Objects, Variables, Data types, Enums and packages.
 
 # Activity Details
-
-1. Navigate to https://start.spring.io/ .
-2. Provide details as given below ![Screenshot](SpringBootProjectGeneration.png)
-3. Generate the folder, download, unzip and open in Intellij.
-4. Build the code and explore the files created.
-5. In terminal run command git init. This should create an empty `.git` folder.
-6. In https://git.target.com - Create new git repository under your own org with the name `learningresources-api`.
-7. Copy the git repo link and then run command from terminal `git remote add origin git@git.target.com:<Org name>/learningresources-api.git`
-8. Create a new git branch with command `git checkout -b "1-HelloWorld"`
-9. Run command `git add .` 
-10. Commit your changes using `git commit -m "<your commit message>"`
-10. Run command `git push origin "1-Hello-World"`
-
-# Activities to explore
-1. Understand the folder structure.
-2. Look at the structure of the class LearningresourcesapiApplication.
-3. Add a line to print "Hello world".
-4. Build your code  and locate where the compiled code is stored.
-5. Understand the difference between compiled code and source code.
-6. Understand the main method and its relevance.
-7. Understand the different git commands used.
+1. Create a new branch using `git checkout -b 2-ClassesAndObjects`.
+1. Create a package with name `entity`.
+2. Create a class with name `LearningResource` under the package entity.
+3. Create an `enum` `LearningResourceStatus` with values - `PLANNING`, `PUBLISHED`, `LIVE`, `RETIRED`.
+4. Add variables to `LearningResource` class - id, name, cost price, selling price, productStatus, createdDate, publishedDate, retiredDate with the correct datatypes.
+5. Create the constructors to create the object.
+6. Commit and push the changes to the current branch `2-ClassesAndObjects`.
+7. Raise a pull request and merge your changes to the `master` branch.
+8. Delete the branch `2-ClassesAndObjects`.
