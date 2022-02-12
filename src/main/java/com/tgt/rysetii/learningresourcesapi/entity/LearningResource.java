@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 public class LearningResource {
     private Integer learningResourceId;
-    private String productName;
+    private String learningResourceName;
     private Double costPrice;
     private Double sellingPrice;
     private LearningResourceStatus learningResourceStatus;
@@ -15,9 +15,9 @@ public class LearningResource {
     public LearningResource() {
     }
 
-    public LearningResource(Integer learningResourceId, String productName, Double costPrice, Double sellingPrice, LearningResourceStatus learningResourceStatus, LocalDate createdDate, LocalDate publishedDate, LocalDate retiredDate) {
+    public LearningResource(Integer learningResourceId, String learningResourceName, Double costPrice, Double sellingPrice, LearningResourceStatus learningResourceStatus, LocalDate createdDate, LocalDate publishedDate, LocalDate retiredDate) {
         this.learningResourceId = learningResourceId;
-        this.productName = productName;
+        this.learningResourceName = learningResourceName;
         this.costPrice = costPrice;
         this.sellingPrice = sellingPrice;
         this.learningResourceStatus = learningResourceStatus;
@@ -34,12 +34,12 @@ public class LearningResource {
         this.learningResourceId = learningResourceId;
     }
 
-    public String getProductName() {
-        return productName;
+    public String getLearningResourceName() {
+        return learningResourceName;
     }
 
-    public void setProductName(String productName) {
-        this.productName = productName;
+    public void setLearningResourceNameName(String learningResourceName) {
+        this.learningResourceName = learningResourceName;
     }
 
     public Double getCostPrice() {
@@ -88,5 +88,19 @@ public class LearningResource {
 
     public void setRetiredDate(LocalDate retiredDate) {
         this.retiredDate = retiredDate;
+    }
+
+    @Override
+    public String toString() {
+        return "LearningResource{" +
+                "learningResourceId=" + learningResourceId +
+                ", learningResourceName='" + learningResourceName + '\'' +
+                ", costPrice=" + costPrice +
+                ", sellingPrice=" + sellingPrice +
+                ", learningResourceStatus=" + learningResourceStatus +
+                ", createdDate=" + createdDate +
+                ", publishedDate=" + publishedDate +
+                ", retiredDate=" + retiredDate +
+                '}';
     }
 }
