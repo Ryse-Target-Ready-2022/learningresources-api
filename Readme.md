@@ -3,12 +3,14 @@
 Learn about Classes, Objects, Variables, Data types, Enums and packages.
 
 # Activity Details
-1. Create a new branch using `git checkout -b 2-ClassesAndObjects`.
-1. Create a package with name `entity`.
-2. Create a class with name `LearningResource` under the package entity.
-3. Create an `enum` `LearningResourceStatus` with values - `PLANNING`, `PUBLISHED`, `LIVE`, `RETIRED`.
-4. Add variables to `LearningResource` class - id, name, cost price, selling price, productStatus, createdDate, publishedDate, retiredDate with the correct datatypes.
-5. Create the constructors to create the object.
-6. Commit and push the changes to the current branch `2-ClassesAndObjects`.
-7. Raise a pull request and merge your changes to the `master` branch.
-8. Delete the branch `2-ClassesAndObjects`.
+1. Create a new branch `3-Methods-Collections`.
+1. Create a package with name `service`.
+2. Create a class with name `LearningResourceService` under the package `service`.
+3. Create a private method `getLearningResources` to load data from `LearningResources.csv` file.
+4. Commit your changes to the current branch.
+5. Create a method to `saveLearningResources` to save data to the `LearningResources.csv` file.
+6. Create a method to calculate profit margin of each product.
+7. Sort the Learning Resources by the profit margin in non-increasing order.
+8. Commit your changes to the current branch.
+9. Raise a pull request and merge your changes to the `master` branch.
+10. Delete the branch `3-Methods-Collections`.
