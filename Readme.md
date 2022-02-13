@@ -1,6 +1,6 @@
 # Activity Goal
 
-Learn about Classes, Objects, Variables, Data types, Enums and packages.
+Learn about different access modifiers, methods, collections and file handling in Java too.
 
 # Activity Details
 1. Create a new branch `3-Methods-Collections`.
