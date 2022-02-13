@@ -15,5 +15,7 @@ Learn about JPA, Interfaces and Abstract classes while getting familiar with Git
 10. Delete the `LearningResources.csv` file.
 11. Run the app and check if the records mentioned in `data.sql` are added successfully by navigating to http://localhost:8080/h2-console.
 12. Call `saveLearningResources` method and check if the data is successfully stored in the database.
+13. Raise a pull request and merge your changes to the `master` branch.
+14. Delete the branch `4-JPA`.
 
 ⚠️ Do not push the password of the database to Git. You can choose to leave the password field empty before pushing or can use the environment variables feature in IntelliJ and use them in properties file.
