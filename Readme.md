@@ -1,14 +1,19 @@
 # Activity Goal
 
-Learn about Classes, Objects, Variables, Data types, Enums and packages.
+Learn about JPA, Interfaces and Abstract classes while getting familiar with Git.
 
 # Activity Details
-1. Create a new branch using `git checkout -b 2-ClassesAndObjects`.
-1. Create a package with name `entity`.
-2. Create a class with name `LearningResource` under the package entity.
-3. Create an `enum` `LearningResourceStatus` with values - `PLANNING`, `PUBLISHED`, `LIVE`, `RETIRED`.
-4. Add variables to `LearningResource` class - id, name, cost price, selling price, productStatus, createdDate, publishedDate, retiredDate with the correct datatypes.
-5. Create the constructors to create the object.
-6. Commit and push the changes to the current branch `2-ClassesAndObjects`.
-7. Raise a pull request and merge your changes to the `master` branch.
-8. Delete the branch `2-ClassesAndObjects`.
+1. Create a new branch called `4-JPA`.
+2. Create a new package called `repository`.
+3. Create an interface named `LearningResourceRepository`.
+4. Add the dependency for Spring Data JPA in `build.gradle` file.
+5. Add the dependency for an H2 in-memory database.
+6. Add the database connection details in the properties file.
+7. Add the SQL queries to insert the data to the in-memory database in the `data.sql` file.
+8. Map your entity class to match with the database table and its columns. 
+9. Modify your service class to load/save data to the in-memory database using the repository methods.
+10. Delete the `LearningResources.csv` file.
+11. Run the app and check if the records mentioned in `data.sql` are added successfully by navigating to http://localhost:8080/h2-console.
+12. Call `saveLearningResources` method and check if the data is successfully stored in the database.
+
+⚠️ Do not push the password of the database to Git. You can choose to leave the password field empty before pushing or can use the environment variables feature in IntelliJ and use them in properties file.
