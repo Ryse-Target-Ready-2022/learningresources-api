@@ -1,19 +1,12 @@
 # Activity Goal
 
-Learn about JPA, Interfaces and Abstract classes while getting familiar with Git.
+Learn about APIs and how to create them following best practices.
 
 # Activity Details
-1. Create a new branch called `4-JPA`.
-2. Create a new package called `repository`.
-3. Create an interface named `LearningResourceRepository`.
-4. Add the dependency for Spring Data JPA in `build.gradle` file.
-5. Add the dependency for an H2 in-memory database.
-6. Add the database connection details in the properties file.
-7. Add the SQL queries to insert the data to the in-memory database in the `data.sql` file.
-8. Map your entity class to match with the database table and its columns. 
-9. Modify your service class to load/save data to the in-memory database using the repository methods.
-10. Delete the `LearningResources.csv` file.
-11. Run the app and check if the records mentioned in `data.sql` are added successfully by navigating to http://localhost:8080/h2-console.
-12. Call `saveLearningResources` method and check if the data is successfully stored in the database.
-
-⚠️ Do not push the password of the database to Git. You can choose to leave the password field empty before pushing or can use the environment variables feature in IntelliJ and use them in properties file.
+1. Create a new branch called `5-Controllers`.
+2. Create a new package called `controllers`.
+3. Create a new class named `LearningResourceController` under the package `controllers`.
+4. Create `GET`, `POST` and `DELETE` endpoints to interact with the Learning Resources and expose them.
+5. Add appropriate response status for each end point. 
+6. Raise a pull request and merge your changes to the `master` branch.
+7. Delete the branch `5-Controllers`.
