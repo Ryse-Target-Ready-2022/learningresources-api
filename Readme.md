@@ -12,3 +12,13 @@ Learn about Classes, Objects, Variables, Data types, Enums and packages.
 6. Commit and push the changes to the current branch `2-ClassesAndObjects`.
 7. Raise a pull request and merge your changes to the `master` branch.
 8. Delete the branch `2-ClassesAndObjects`.
+
+# Activities to Explore
+1. Understand difference between Classes and Objects.
+2. Understand Enums
+3. Explore different datatypes available in Java
+4. Understand Constructors.
+5. Practise creating different type of objects.
+6. Explore different datastructures.
+
+
