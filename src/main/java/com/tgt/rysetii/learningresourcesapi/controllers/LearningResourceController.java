@@ -28,7 +28,7 @@ public class LearningResourceController {
         learningResourceService.saveLearningResources(learningResources);
     }
 
-    @DeleteMapping(value = "/leaerningresource/{learningResourceId}")
+    @DeleteMapping(value = "/learningresource/{learningResourceId}")
     public void deleteLearningResource(@PathVariable int learningResourceId){
         learningResourceService.deleteLearningResourceById(learningResourceId);
     }
