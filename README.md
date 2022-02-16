@@ -1,4 +1,4 @@
-# Products-api
+# learningresources-api
 
 This is a sample repository for practising Java, Spring Boot and Rest Fundamentals. This is intended for anyone at a beginner level of the above topics. 
 
