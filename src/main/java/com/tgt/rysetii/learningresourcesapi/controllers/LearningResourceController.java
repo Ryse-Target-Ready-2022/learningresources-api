@@ -22,7 +22,7 @@ public class LearningResourceController {
         return learningResourceService.getLearningResources();
     }
 
-    @PostMapping(value = "/", consumes = "application/json", produces = "application/json")
+    @PostMapping(value = "/", consumes = "application/json")
     @ResponseStatus(HttpStatus.CREATED)
     public void saveLearningResources(@RequestBody List<LearningResource> learningResources){
         learningResourceService.saveLearningResources(learningResources);
