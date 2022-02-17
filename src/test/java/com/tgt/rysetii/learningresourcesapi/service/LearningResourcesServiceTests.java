@@ -1,9 +1,8 @@
-package com.tgt.rysetii.productsapi.service;
+package com.tgt.rysetii.learningresourcesapi.service;
 
 import com.tgt.rysetii.learningresourcesapi.entity.LearningResource;
 import com.tgt.rysetii.learningresourcesapi.entity.LearningResourceStatus;
 import com.tgt.rysetii.learningresourcesapi.repository.LearningResourceRepository;
-import com.tgt.rysetii.learningresourcesapi.service.LearningResourceService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
