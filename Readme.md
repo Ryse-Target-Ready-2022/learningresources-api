@@ -19,3 +19,11 @@ Learn about JPA, Interfaces and Abstract classes while getting familiar with Git
 14. Delete the branch `4-JPA`.
 
 ⚠️ Do not push the password of the database to Git. You can choose to leave the password field empty before pushing or can use the environment variables feature in IntelliJ and use them in properties file.
+
+# Activities to explore
+1. Understand JPA concepts.
+2. Understand resource files such as app.yml or app.properties.
+3. Understand how to connect to dev database, stage database, prod database, etc
+4. Understand good practise while checking in resource files. 
+5. Understand what is an interface. Observe how it is used in the repository layer.
+6. Understand JDBC as an alternative to connect to db.
