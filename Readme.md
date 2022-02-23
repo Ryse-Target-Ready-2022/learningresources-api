@@ -14,3 +14,12 @@ Learn about different access modifiers, methods, collections and file handling i
 8. Commit your changes to the current branch.
 9. Raise a pull request and merge your changes to the `master` branch.
 10. Delete the branch `3-Methods-Collections`.
+
+# Activities to explore.
+1. Understand the purpose of methods.
+2. Understand how to pass input parameters to a method.
+3. Understand how to return output of a method.
+4. Understand main method.
+5. Understand static keyword and when to use.
+6. Understand variable scoping.
+7. Understand basics of exception handling.
