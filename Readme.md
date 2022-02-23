@@ -10,3 +10,10 @@ Learn about APIs and how to create them following best practices.
 5. Add appropriate response status for each end point. 
 6. Raise a pull request and merge your changes to the `master` branch.
 7. Delete the branch `5-Controllers`.
+
+# Activities to explore
+1. Refresh REST fundamentals.
+2. Refresh Microservice in context to the organisation.
+3. Explore areas of your product domain where you notice microservices used and how they are using it.
+4. Go through API design standards.
+5. Discuss the API design standards with your peers.
