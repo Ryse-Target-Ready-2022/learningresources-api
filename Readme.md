@@ -9,7 +9,7 @@ Create your first Spring Boot app
 3. Generate the folder, download, unzip and open in Intellij.
 4. Build the code and explore the files created.
 5. In terminal run command git init. This should create an empty `.git` folder.
-6. In https://git.target.com - Create new git repository under your own org with the name `learningresources-api`.
+6. In https://github.com - Create new git repository under your own org with the name `learningresources-api`.
 7. Copy the git repo link and then run command from terminal `git remote add origin git@git.target.com:<Org name>/learningresources-api.git`
 8. Create a new git branch with command `git checkout -b "1-HelloWorld"`
 9. Run command `git add .` 
