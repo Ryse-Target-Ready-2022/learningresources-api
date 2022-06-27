@@ -84,7 +84,7 @@ public class LearningResourceControllerTests {
     public void deleteTheRequestedLearningResource() throws Exception {
         int inputLearningResourceId = 1234;
 
-        this.mockMvc.perform(MockMvcRequestBuilders.delete("learningresources/v1/learningresource" + inputLearningResourceId))
+        this.mockMvc.perform(MockMvcRequestBuilders.delete("/learningresources/v1/learningresource/" + inputLearningResourceId))
                     .andExpect(status().isOk());
     }
 
